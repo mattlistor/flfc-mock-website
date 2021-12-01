@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Product(product) {
-    console.log(typeof product)
+function Product(props) {
   return (
-    <div>{product.product.name}</div>
+    <div>{props.product.name}</div>
   );
 }
 
