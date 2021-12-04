@@ -1,11 +1,24 @@
-@font-face {
-  font-family: 'DIN Regular';
-  src: local('DIN_Regular'), url(./DIN_Regular.otf) format('.otf');
-}
-
 .App {
   text-align: center;
-  font-family: 'DIN Regular';
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
+
+.Products {
+  display: flex;
+  flex-flow: row;
+  margin-top:30px;
+}
+
+.Product {
+  display: flex;
+  flex-flow: column;
+}
+
+img.productShot {
+  width: 200px;
+}
+
 
 
